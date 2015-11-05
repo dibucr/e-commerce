@@ -11,8 +11,8 @@
 
 	$theme.include($top_head_include)
 	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="$css_folder/custom.css" />
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" />
 </head>
 
 <body class="$css_class">
@@ -21,7 +21,7 @@
 	#dockbar()
 #end
 
-<div class="container theme-navbar">
+<div class="theme-navbar">
 
 <a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
 
@@ -29,23 +29,6 @@ $theme.include($body_top_include)
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
-		<div id="heading">
-			<h1 class="site-title">
-				<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
-					<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
-				</a>
-
-				#if ($show_site_name)
-					<span class="site-name" title="#language_format ("go-to-x", [$site_name])">
-						$site_name
-					</span>
-				#end
-			</h1>
-
-			<h2 class="page-title">
-				<span>$the_title</span>
-			</h2>
-		</div>
 
 		#if (!$is_signed_in)
 			<a data-redirect="$is_login_redirect_required" href="$sign_in_url" id="sign-in" rel="nofollow">$sign_in_text</a>
@@ -70,9 +53,14 @@ $theme.include($body_top_include)
 	</div>
 
 	<footer id="footer" role="contentinfo">
-		<p class="powered-by">
-			#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a>
-		</p>
+		 #set ($VOID = $velocityPortletPreferences.setValue('groupId', $themeDisplay.getScopeGroupId().toString()))
+		 #set ($VOID = $velocityPortletPreferences.setValue('articleId', '17129'))
+		 #set ($VOID = $velocityPortletPreferences.setValue('portletSetupShowBorders', 'false'))
+		 #set ($portlet_id = '56')
+		 #set ($my_portlet_id = "${portlet_id}_INSTANCE_7655")
+
+		$theme.runtime($my_portlet_id, "", $velocityPortletPreferences.toString())
+		
 	</footer>
 </div>
 
@@ -80,6 +68,7 @@ $theme.include($body_bottom_include)
 
 $theme.include($bottom_include)
 
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="$javascript_folder/main.js"></script>
 </div>
 </body>

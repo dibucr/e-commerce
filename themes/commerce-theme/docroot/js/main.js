@@ -12,14 +12,4 @@ $(function() {
 		var $element = '<div>' + $template + '</div>';
 		$('.additional').append($element);
 	});
-
-	$('.remove-template').live('click', function() {
-		var $divElement = $(this).parent().parent().parent().parent().parent();
-		if($divElement.hasClass('root-template')) {
-			alert('Root Template Can not be removed.');
-			return false;
-		} else {
-			$divElement.fadeOut('slow').remove();
-		}
-	});
 });
