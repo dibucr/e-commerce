@@ -1,7 +1,7 @@
 <div class="masthead">
 
  #set ($VOID = $velocityPortletPreferences.setValue('groupId', $themeDisplay.getScopeGroupId().toString()))
- #set ($VOID = $velocityPortletPreferences.setValue('articleId', '17115'))
+ #set ($VOID = $velocityPortletPreferences.setValue('articleId', 'NAME-AND-LOGO'))
  #set ($VOID = $velocityPortletPreferences.setValue('portletSetupShowBorders', 'false'))
  #set ($portlet_id = '56')
  #set ($my_portlet_id = "${portlet_id}_INSTANCE_7654")
